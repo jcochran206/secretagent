@@ -1,0 +1,32 @@
+html, body {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.container {
+  width: 1024px;
+  height: 100%;
+  background-color: gray;
+}
+.header-logo {
+  background-color: black;
+  color: white;
+}
+.main-banner {
+  background-image: url("../img/moto.jpeg");
+  height: 25rem;
+}
+.main-banner-msg {
+  background-color: black;
+  width: 20rem;
+  padding-left: 2rem;
+  padding-top: 3rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav {
+  display: inline;
+  background-color: firebrick;
+  list-style: none;
+}
