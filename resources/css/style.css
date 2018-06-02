@@ -19,14 +19,33 @@ html, body {
 .main-banner-msg {
   background-color: black;
   width: 20rem;
-  padding-left: 2rem;
-  padding-top: 3rem;
   color: white;
   font-size: 2rem;
   font-weight: bold;
 }
+
+.main-banner-msg #arrival {
+  color: white;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.main-banner-msg #sports {
+  color: white;
+  padding-top: 0.25rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .nav {
-  display: inline;
-  background-color: firebrick;
+  background-color: red;
+  height: 50px;
+  width: 1024px;
+}
+
+.nav li {
   list-style: none;
+  display: inline;
 }
